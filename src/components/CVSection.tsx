@@ -1,9 +1,10 @@
 // components/CVSection.tsx
-'use client';
+"use client";
 
 import { motion } from 'framer-motion';
 import { Download, FileText } from 'lucide-react';
 import Image from 'next/image';
+import cvPreview from '../../public/cv-preview.png';
 
 export default function CVSection() {
     return (
@@ -101,7 +102,7 @@ export default function CVSection() {
                         {/* Preview Image */}
                         <div className="bg-gray-200 dark:bg-gray-700 aspect-[1/1.414] w-full relative">
                             <Image
-                                src="/cv-preview.png" // Replace with your actual CV preview image
+                                src={cvPreview} // Replace with your actual CV preview image
                                 alt="CV Preview"
                                 layout="fill"
                                 objectFit="fill"

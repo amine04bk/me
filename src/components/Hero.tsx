@@ -4,6 +4,8 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 
 import { ExternalLink, Calendar, ArrowRight } from 'lucide-react';
+import beanbackImg from '../../public/beanback.png';
+import mypic from '../../public/mypic.jpg';
 
 export default function Hero() {
 
@@ -158,7 +160,7 @@ export default function Hero() {
                                 <div className="flex items-start gap-4 mb-4">
                                     <div className={`w-12 h-12 rounded-xl ${latestProject.bgColor} flex items-center justify-center group-hover:scale-110 transition-transform duration-300`}>
                                         <Image
-                                            src="/beanback.png"
+                                            src={beanbackImg}
                                             alt="beanback project logo"
                                             width={48}
                                             height={48}
@@ -299,7 +301,7 @@ export default function Hero() {
                                 {/* Photo with modern effects */}
                                 <div className="absolute inset-2 rounded-full overflow-hidden bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-700 dark:to-gray-800">
                                     <Image
-                                        src="/mypic.jpg"
+                                        src={mypic}
                                         alt="Amine - Fullstack mobile Developer"
                                         fill
                                         className="object-cover transition-all duration-700 hover:scale-110 filter grayscale hover:grayscale-0"
