@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import favicon from '../../public/favicon.ico';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
   title: 'Mohamed Amine Benkhoud',
   description: 'FullStack mobile developer',
   icons: {
-    icon: '/favicon.ico',
+    icon: favicon.src,
   },
 };
 

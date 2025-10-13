@@ -1,6 +1,12 @@
 'use client';
 
 import Image from 'next/image';
+import beanbackProjectImg from '../../public/beanback-project.png';
+import beanbackImg from '../../public/beanback.png';
+import crtGabesImg from '../../public/crt-gabes.png';
+import ichraakImg from '../../public/ichraak.png';
+import tradicareImg from '../../public/tradicare.png';
+import sabatsfyksImg from '../../public/sabatsfyks.png';
 import { motion } from 'framer-motion';
 import { ExternalLink, Github, Smartphone, Monitor, ShoppingBag } from 'lucide-react';
 
@@ -8,7 +14,7 @@ const projects = [
     {
         title: 'BeanBack - Valorize Coffee Grounds',
         description: 'A mobile app interconnected with BeanBacks machines to recycle coffee grounds and earn rewards...',
-        image: '/beanback-project.png',
+    image: beanbackProjectImg,
         tech: ['Flutter', 'Dart', 'NestJS', 'IOT', 'AI'],
         category: 'Mobile App',
         color: 'from-blue-400 to-purple-500',
@@ -18,7 +24,7 @@ const projects = [
 {
     title: 'MauriReserve',
     description: 'Food delivery app for a Mauritanian company with API and Firebase integration.',
-    image: '/beanback.png',
+    image: beanbackImg,
     tech: ['Figma', 'Flutter', 'Dart', 'API', 'Firebase'],
     category: 'Mobile App',
     color: 'from-orange-400 to-red-500',
@@ -28,7 +34,7 @@ const projects = [
 {
     title: 'Tunisian Red Crescent - Gabes Committee',
     description: 'Community coordination platform with maps, real-time updates, and secure access.',
-    image: '/crt-gabes.png',
+    image: crtGabesImg,
     tech: ['Flutter', 'Node.js', 'MongoDB', 'Google Maps API'],
     category: 'Web & Mobile App',
     color: 'from-blue-400 to-purple-500',
@@ -38,7 +44,7 @@ const projects = [
 {
     title: 'Ichraak',
     description: 'Cross-platform waste declaration and reporting platform with dashboards and geolocation.',
-    image: '/ichraak.png',
+    image: ichraakImg,
     tech: ['Flutter', 'Firebase', 'React'],
     category: 'Mobile App',
     color: 'from-green-400 to-teal-500',
@@ -48,7 +54,7 @@ const projects = [
 {
     title: 'Tradicare',
     description: 'AI-based medical translator to improve doctor–patient communication.',
-    image: '/tradicare.png',
+    image: tradicareImg,
     tech: ['Flutter', 'Firebase', 'OpenAI API'],
     category: 'Mobile App',
     color: 'from-purple-400 to-pink-500',
@@ -58,7 +64,7 @@ const projects = [
 {
     title: 'SabatSfakys',
     description: 'Marketplace for handmade shoes with Spring Boot backend and PayPal integration.',
-    image: '/sabatsfyks.png',
+    image: sabatsfyksImg,
     tech: ['Flutter', 'Dart', 'API', 'Spring Boot', 'PayPal'],
     category: 'E-commerce App',
     color: 'from-orange-400 to-red-500',
