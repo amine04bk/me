@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import beanbackProjectImg from '../../public/beanback-project.png';
-import crtGabesImg from '../../public/public/crt-gabes.png';
+import crtGabesImg from '../../public/crt-gabes.png';
 import ichraakImg from '../../public/ichraak.png';
 import tradicareImg from '../../public/tradicare.png';
 import sabatsfyksImg from '../../public/sabatsfyks.png';
