@@ -4,7 +4,7 @@
 import { motion } from 'framer-motion';
 import { Download, FileText } from 'lucide-react';
 import Image from 'next/image';
-import cvPreview from '../../public/cv-preview.png';
+import cvPreview from './cv-preview.png';
 
 export default function CVSection() {
     return (

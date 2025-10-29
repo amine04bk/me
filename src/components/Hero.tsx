@@ -4,8 +4,8 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 
 import { ExternalLink, Calendar, ArrowRight } from 'lucide-react';
-import beanbackImg from '../../public/beanback.png';
-import mypic from '../../public/mypic.jpg';
+import beanbackImg from './beanback.png';
+import mypic from './mypic.jpg';
 
 export default function Hero() {
 
