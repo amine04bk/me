@@ -7,6 +7,7 @@ import crtGabesImg from '../../public/crt-gabes.png';
 import ichraakImg from '../../public/ichraak.png';
 import tradicareImg from '../../public/tradicare.png';
 import sabatsfyksImg from '../../public/sabatsfyks.png';
+import maurireserveImg from '../../public/maurireserve.png';
 import { motion } from 'framer-motion';
 import { ExternalLink, Github, Smartphone, Monitor, ShoppingBag } from 'lucide-react';
 
@@ -24,7 +25,7 @@ const projects = [
 {
     title: 'MauriReserve',
     description: 'Food delivery app for a Mauritanian company with API and Firebase integration.',
-    image: beanbackImg,
+    image: maurireserveImg,
     tech: ['Figma', 'Flutter', 'Dart', 'API', 'Firebase'],
     category: 'Mobile App',
     color: 'from-orange-400 to-red-500',
