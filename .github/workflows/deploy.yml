@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       # Set this to the repository name path where the site will be served, e.g. '/me'
-      NEXT_PUBLIC_GITHUB_PAGES: '/me'
+      NEXT_PUBLIC_GITHUB_PAGES: "/me"
 
     steps:
       - name: Checkout repository
@@ -25,9 +25,6 @@ jobs:
 
       - name: Build
         run: npm run build
-
-      - name: Export (static)
-        run: npm run export
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
