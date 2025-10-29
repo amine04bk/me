@@ -1,12 +1,12 @@
 'use client';
 
 import Image from 'next/image';
-import beanbackProjectImg from './public/beanback-project.png';
-import crtGabesImg from './public/crt-gabes.png';
-import ichraakImg from './ichraak.png';
-import tradicareImg from './tradicare.png';
-import sabatsfyksImg from './sabatsfyks.png';
-import maurireserveImg from './maurireserve.png';
+import beanbackProjectImg from '../../public/beanback-project.png';
+import crtGabesImg from '../../public/public/crt-gabes.png';
+import ichraakImg from '../../public/ichraak.png';
+import tradicareImg from '../../public/tradicare.png';
+import sabatsfyksImg from '../../public/sabatsfyks.png';
+import maurireserveImg from '../../public/maurireserve.png';
 import { motion } from 'framer-motion';
 import { ExternalLink, Github, Smartphone, Monitor, ShoppingBag } from 'lucide-react';
 
