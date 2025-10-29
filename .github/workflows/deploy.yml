@@ -2,11 +2,14 @@ name: Build and deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    env:
+      # Set this to the repository name path where the site will be served, e.g. '/me'
+      NEXT_PUBLIC_GITHUB_PAGES: '/me'
 
     steps:
       - name: Checkout repository
@@ -15,7 +18,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20"
 
       - name: Install dependencies
         run: npm ci
